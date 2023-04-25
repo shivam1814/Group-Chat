@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateRoom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        tools:ignore="UseAppTint">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Create Room"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="22sp"
+            android:layout_height="22sp"
+            android:id="@+id/btn_back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20sp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:tint="@color/white"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_roomname"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="20sp"
+        android:padding="5sp"
+        android:background="@drawable/et_background"
+        android:hint="Enter Room Name"/>
+
+   <CheckBox
+       android:id="@+id/checkbox"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Private"
+       android:layout_gravity="center"
+       android:layout_marginTop="10sp"/>
+
+    <Button
+        android:id="@+id/btn_createroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Create Room"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_200"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

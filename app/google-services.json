@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "746299317184",
+    "project_id": "groupchat-10d65",
+    "storage_bucket": "groupchat-10d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746299317184:android:345573c2e213a27ff1c625",
+        "android_client_info": {
+          "package_name": "com.vidhi.groupchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746299317184-rr1hbr9n6v3rlsmnksselst97bmtg4na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidhi.groupchat",
+            "certificate_hash": "4b7be03e4d30b1d4e826448b483cfd4bd3a0d15a"
+          }
+        },
+        {
+          "client_id": "746299317184-ftv133jef1bln5idb5l7eqnsrul040ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwRQzp_mBlFJsgh9oDeiomJgQkSeWZRZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746299317184-ftv133jef1bln5idb5l7eqnsrul040ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
